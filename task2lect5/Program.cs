@@ -5,7 +5,7 @@ class Program
 {
 
      static List<int> listNumber = new List<int>();
-     //static string message;
+     
     static void Main()
     {
         Console.BackgroundColor = ConsoleColor.Black;
@@ -100,7 +100,7 @@ class Program
         Console.WriteLine("      ║                   V - Swap by value                   ║");
         Console.WriteLine("      ║                   C - Clear the whole list            ║");
         Console.WriteLine("      ║                   Q - Quit                            ║");
-        Console.WriteLine("      ╚═════════════════════════════════════════════════════════╝");
+        Console.WriteLine("      ╚═══════════════════════════════════════════════════════╝");
     }
 
     static void Output(string message)
